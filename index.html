@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>My Pixel Art Maker</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div id="container">
+    <h1 style="text-decoration: underline;">Pick the Grid size</h1>
+
+    <form action="#" onsubmit="getData()">
+      <label>Rows:</label>
+      <input type="number" min="5" max="50" id="row" style="width: 50px">
+      <label>Columns:</label>
+      <input type="number" min="5" max="50" id="col" style="width: 50px">
+      
+    </form><button type="button" id="submitBtn">Set Grid</button><br><br>
+    Color Picker: <input type="color" id="myColor">
+</div>
+</body>
+<script type="text/javascript" src="./design.js"></script>
+</html>
